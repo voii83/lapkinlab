@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <input type="checkbox" id="feedback-toggle" hidden>
+    <div class="header">
+        <div class="container row">
+            <div class="header-logo left">
+                <img src="img/main-logo.png" width="273" height="100" alt="Название компании">
+            </div>
+            <div class="header-contacts right">
+                <ul class="header-contacts-phone">
+                    <li>+7(499) 777-77-77</li>
+                    <li>+7(499) 777-77-77</li>
+                </ul>
+                <div class="header-contacts-feedback">
+                    <label for="feedback-toggle" onclick="">
+                        <i>Обратная связь</i>
+                    </label>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-feedback">
+        <div class="feedback-form">
+            <form method="post" name="feedbackForm">
+                <h2>Обратная связь</h2>
+                <div class="feedback-name">
+                    <label>
+                        <div class="feedback-form-label"> Ваше имя *</div>
+                        <input type="text" name="feedbackName" class="feedback-name-input">
+                    </label>
+                </div>
+                <div class="feeadback-phone">
+                    <label>
+                        <div class="feedback-form-label">Телефон *</div>
+                        <input type="text" name="feedbackPhone" class="feedback-phone-input">
+                    </label>
+                </div>
+                <div class="feedback-email">
+                    <label>
+                        <div class="feedback-form-label">Email *</div>
+                        <input type="text" name="feedbackEmail" class="feedback-email-input">
+                    </label>
+                </div>
+                <div class="feedback-message">
+                    <label>
+                        <div class="feedback-form-label">Сообщение</div>
+                        <textarea name="feedbackMessage" rows="8"></textarea>
+                    </label>
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+            <div class="feedback-form-exit">
+                <label for="feedback-toggle" onclick="">
+                    <img src="img/feedback-form-exit.png" alt="Закрыть">
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="content-center-page">
+
+        <div class="main-menu">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Прайс-лист</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+<div class="main-slider">
+        <div id="slider" class="slider_wrap">
+            <img alt="Image 1" class="active" src="img/slide_1.png">
+            <img alt="Image 2" src="img/slide_2.png">
+            <img alt="Image 3" src="img/slide_1.png">
+        </div>
+</div>
+
+        <div class="breadcrumbs">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><span>Бытовая техника</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="container">
+
+                <div class="row">
+                    <div class="sidebar left">
+                        <ul class="catalog-menu">
+                            <li><a href="#">Автомобили</a></li>
+                            <li><a href="#" class="active">Бытовая техника</a></li>
+                            <ul class="catalog-menu-sub">
+                                <li><a href="#" class="active">Микроволновки</a></li>
+                                <li><a href="#">Холодильники</a></li>
+                                <li><a href="#">Посудомоечные машины</a></li>
+                                <li><a href="#">Чайники</a></li>
+                            </ul>
+                            <li><a href="#">Мобильная техника</a></li>
+                            <li><a href="#">Компьютеры</a></li>
+                            <li><a href="#">Одежда</a></li>
+                            <li><a href="#">Недвижимость</a></li>
+                        </ul>
+                        <a href="#" class="price-list">
+                            <div><img src="img/price-icon.png" alt="Скачать" width="97" height="111"></div>
+                            <div>Прайс-лист</div>
+                        </a>
+                    </div>
+                    <div class="center-content right">
+                        <div class="catalog">
+                            <div class="catalog-item">
+                                <img class="catalog-item-photo" src="img/no-photo.jpg" alt="Фото" width="210"
+                                     height="209">
+                                <h2 class="catalog-item-name">Самый клевый чайник, который надо купить!</h2>
+                                <span class="catalog-item-price">1 900 р.</span>
+                                <a href="#" class="catalog-item-add-to-basket"><img src="img/mini-cart-icon.png"></a>
+                            </div>
+                            <div class="catalog-item">
+                                <img class="catalog-item-photo" src="img/no-photo.jpg" alt="Фото" width="210"
+                                     height="209">
+                                <h2 class="catalog-item-name">Самый клевый чайник, который надо купить!</h2>
+                                <span class="catalog-item-price">1 900 р.</span>
+                                <a href="#" class="catalog-item-add-to-basket"><img src="img/mini-cart-icon.png"></a>
+                            </div>
+                            <div class="catalog-item">
+                                <img class="catalog-item-photo" src="img/no-photo.jpg" alt="Фото" width="210"
+                                     height="209">
+                                <h2 class="catalog-item-name">Самый клевый чайник, который надо купить!</h2>
+                                <span class="catalog-item-price">1 900 р.</span>
+                                <a href="#" class="catalog-item-add-to-basket"><img src="img/mini-cart-icon.png"></a>
+                            </div>
+                            <div class="catalog-item">
+                                <img class="catalog-item-photo" src="img/no-photo.jpg" alt="Фото" width="210"
+                                     height="209">
+                                <h2 class="catalog-item-name">Самый клевый чайник, который надо купить!</h2>
+                                <span class="catalog-item-price">1 900 р.</span>
+                                <a href="#" class="catalog-item-add-to-basket"><img src="img/mini-cart-icon.png"></a>
+                            </div>
+                            <div class="catalog-item">
+                                <img class="catalog-item-photo" src="img/no-photo.jpg" alt="Фото" width="210"
+                                     height="209">
+                                <h2 class="catalog-item-name">Самый клевый чайник, который надо купить!</h2>
+                                <span class="catalog-item-price">1 900 р.</span>
+                                <a href="#" class="catalog-item-add-to-basket"><img src="img/mini-cart-icon.png"></a>
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <ul>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><span>3</span></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li><a href="#">7</a></li>
+                            </ul>
+                        </div>
+                        <div class="about-company row">
+                            <div class="about-company-item left">
+                                Компания «Компания» существует более 6 лет, за это время мы принимали участие в
+                                разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами.
+                                На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух
+                                офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви,
+                                ухода молодости, угасания души.
+                            </div>
+                            <div class="about-company-item right">
+                                Одним из основных направлений работ нашей компании является поисковое продвижение
+                                сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем
+                                11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве
+                                работ, а так же применяем собственные уникальные разработки в области SEO продвижения.
+                                На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста,
+                                преимущественно работающих в нашем московском офисе.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container row">
+            <div class="footer-company-about left">
+                <div class="copyrighted">© 2012–2013 ЗАО «Компания»</div>
+                <div class="email-company">info@name.ru</div>
+            </div>
+            <div class="footer-menu left">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Прайс-лист</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-logo right">
+                <span>Разработка сайта</span> —<br>
+                компания «Компания»
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/myscript.js"></script>
+</body>
+</html>
